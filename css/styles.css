@@ -11704,3 +11704,9 @@ body {
   --bs-bg-colour: rgb(#000);
   background-color: rgba(var(--bs-bg-colour), var(--bs-bg-opacity)) !important;
 }
+
+span.rev { unicode-bidi:bidi-override; direction:rtl }
+span.rev.email:before { content:"moc.leicamg" }
+span.rev.email:after { content:"@emrehliug" }
+span.rev.phone:before { content:"1345-523 " }
+span.rev.phone:after { content:" 1+" }
