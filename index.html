@@ -8,7 +8,7 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Guilherme de Almeida</title>
+    <title>Guilherme Maciel de Almeida</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
     <!-- Font Awesome icons (free version)-->
@@ -63,18 +63,28 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" id="about" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skils">Skils</a>
+              <a class="nav-link" id="skills" href="#skils">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" id="projects" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" id="contact" href="#contact">Contact</a>
             </li>
           </ul>
+          <div class="switch">
+            <input
+              id="language-toggle"
+              class="check-toggle check-toggle-round-flat"
+              type="checkbox"
+            />
+            <label for="language-toggle"></label>
+            <span class="on">EN</span>
+            <span class="off">PT</span>
+          </div>
         </div>
       </div>
     </nav>
@@ -86,10 +96,12 @@
         <div class="d-flex justify-content-center">
           <div class="text-center">
             <h1 class="mx-auto my-0 text-uppercase">Guilherme</h1>
-            <h2 class="text-white-50 mx-auto mt-2 mb-5">
+            <h2 class="text-white-50 mx-auto mt-2 mb-5" id="subtitle">
               Full-stack web developer.
             </h2>
-            <a class="btn btn-primary" href="#about">Get Started</a>
+            <a class="btn btn-primary" href="#about" id="started"
+              >Get Started</a
+            >
           </div>
         </div>
       </div>
@@ -99,8 +111,8 @@
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-lg-8">
-            <h2 class="text-white mb-4">Who am I?</h2>
-            <p class="text-white-50">
+            <h2 class="text-white mb-4" id="whoami">Who am I?</h2>
+            <p class="text-white-50" id="whoamians">
               I am a highly motivated and progess-focused Web Developer with an
               insatiable desire to learn and grow in web development. I
               completed the Web & Mobile App Development course at Cornerstone
@@ -116,7 +128,7 @@
     <!-- Skills-->
     <section class="projects-section bg-light" id="skils">
       <div class="container px-4 px-lg-5">
-        <h2 class="text-black mb-4 text-center">Skills</h2>
+        <h2 class="text-black mb-4 text-center" id="skills2">Skills</h2>
         <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
           <div class="col-xl-8 col-lg-7">
             <img
@@ -128,7 +140,9 @@
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
               <!-- <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p> -->
-              <p class="text-black-50">Programming Languages & Tools</p>
+              <p class="text-black-50" id="programlang">
+                Programming Languages & Tools
+              </p>
               <ul class="list-inline dev-icons">
                 <li class="list-inline-item">
                   <i class="fa-brands fa-html5 fa-2xl" title="HTML5"></i>
@@ -160,7 +174,7 @@
                 </li>
               </ul>
 
-              <p class="text-black-50">Databases</p>
+              <p class="text-black-50" id="database">Databases</p>
 
               <ul class="list-inline dev-icons">
                 <li class="list-inline-item">MySQL</li>
@@ -175,7 +189,7 @@
     <!-- Projects-->
     <section class="projects-section bg-light" id="projects">
       <div class="container px-4 px-lg-5">
-        <h2 class="text-black mb-4 text-center">Projects</h2>
+        <h2 class="text-black mb-4 text-center" id="projects2">Projects</h2>
         <!-- Project One Row-->
         <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
           <div class="col-lg-6">
@@ -192,7 +206,7 @@
                   class="project-text w-100 my-auto text-center text-lg-left"
                 >
                   <h4 class="text-white">Weather App</h4>
-                  <p class="mb-0 text-white-50">
+                  <p class="mb-0 text-white-50" id="weatherapp">
                     An application to obtain the weather forecast for a specific
                     location, which can be either provided by the user or
                     detected through geolocation. Developed during the Web and
@@ -203,6 +217,7 @@
                   <a
                     href="https://guimaciel.github.io/weatherapp/"
                     target="_blank"
+                    id="viewproject1"
                     >View project</a
                   >
                   <hr class="d-none d-lg-block mb-0 ms-0" />
@@ -227,13 +242,14 @@
                   class="project-text w-100 my-auto text-center text-lg-right"
                 >
                   <h4 class="text-white">Rio Brazilian Steakhouse</h4>
-                  <p class="mb-0 text-white-50">
+                  <p class="mb-0 text-white-50" id="riosthouse">
                     Clone of the website Rio Brazilian Steakhouse. A brazilian
                     steakhouse based in Vancouver/BC.
                   </p>
                   <a
                     href="https://guimaciel.github.io/Rio-Churrascaria/code/home.html"
                     target="_blank"
+                    id="viewproject2"
                     >View project</a
                   >
                   <hr class="d-none d-lg-block mb-0 me-0" />
@@ -252,7 +268,7 @@
             <div class="card py-4 h-100">
               <div class="card-body text-center">
                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Address</h4>
+                <h4 class="text-uppercase m-0" id="address">Address</h4>
                 <hr class="my-4 mx-auto" />
                 <div class="small text-black-50">V6E 1H9</div>
                 <div class="small text-black-50">Vancouver, BC / Canada</div>
@@ -277,7 +293,7 @@
             <div class="card py-4 h-100">
               <div class="card-body text-center">
                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Phone</h4>
+                <h4 class="text-uppercase m-0" id="phone">Phone</h4>
                 <hr class="my-4 mx-auto" />
                 <div class="small text-black-50">
                   <a class="mx-2" href="tel:17783255431" target="_blank"
@@ -328,5 +344,74 @@
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+    <script>
+      const language = document.getElementById("language-toggle");
+
+      language.addEventListener("change", (event) => {
+        if (event.currentTarget.checked) {
+          swithcLang("pt");
+        } else {
+          swithcLang("en");
+        }
+      });
+
+      let languageContent = {
+        en: {
+          about: "About",
+          skills: "Skills",
+          projects: "Projects",
+          contact: "Contact",
+          subtitle: "Full-stack web developer.",
+          started: "Get Started",
+
+          whoami: "Who am I?",
+          whoamians:
+            "I am a highly motivated and progess-focused Web Developer with an insatiable desire to learn and grow in web development. I completed the Web & Mobile App Development course at Cornerstone International Community College of Canada, with a focus on web development. I am currently seeking opportunities in the market, whether it be for frontend, backend, or full stack positions.",
+          skills2: "Skills",
+          programlang: "Programming Languages & Tools",
+          database: "Databases",
+          projects2: "Projects",
+          weatherapp:
+            "An application to obtain the weather forecast for a specific location, which can be either provided by the user or detected through geolocation. Developed during the Web and Mobile App Development course using HTML, CSS, Javascript, and APIs: OpenWeather and Google to retrieve information about weather and locations.",
+          viewproject1: "View project",
+          riosthouse:
+            "Clone of the website Rio Brazilian Steakhouse. A brazilian steakhouse based in Vancouver/BC.",
+          viewproject2: "View project",
+          address: "Address",
+          phone: "Phone",
+        },
+        pt: {
+          about: "Sobre",
+          skills: "Habilidades",
+          projects: "Projetos",
+          contact: "Contato",
+          subtitle: "Desenvolvedor Web Full-stack.",
+          started: "Início",
+          whoami: "Quem sou eu?",
+          whoamians:
+            "Eu sou um Desenvolvedor Web altamente motivado e focado em progresso, com um desejo insaciável de aprender e crescer na área de desenvolvimento web. Concluí o curso de Desenvolvimento de Aplicações Web e Mobile no Cornerstone International Community College of Canada, com ênfase em desenvolvimento web. Atualmente, estou em busca de oportunidades no mercado, seja para posições de frontend, backend ou full stack.",
+          skills2: "Habilidades",
+          programlang: "Linguagens de Programação e Ferramentas",
+          database: "Banco de Dados",
+          projects2: "Projetos",
+          weatherapp:
+            "Uma aplicação para obter a previsão do tempo para uma localização específica, que pode ser fornecida pelo usuário ou detectada por geolocalização. Desenvolvida durante o curso de Desenvolvimento de Aplicações Web e Mobile, utilizando HTML, CSS, Javascript e as APIs OpenWeather e Google para obter informações sobre o clima e localizações.",
+          viewproject1: "Visualizar projeto",
+          riosthouse:
+            "Clone do site do Rio Brazilian Steakhouse. Uma churrascaria brasileira localizada em Vancouver, BC.",
+          viewproject2: "Visualizar projeto",
+          address: "Endereço",
+          phone: "Telefone",
+        },
+      };
+
+      function swithcLang(lang) {
+        for (let key in languageContent[lang]) {
+          console.log(key);
+          document.getElementById(key).innerHTML = languageContent[lang][key];
+        }
+      }
+    </script>
   </body>
 </html>
