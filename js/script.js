@@ -20,6 +20,8 @@ const translations = {
       "Clone of the website Rio Brazilian Steakhouse. A brazilian steakhouse based in Vancouver/BC.",
     proj3:
       "Project developed to practice programming logic and DOM manipulation using plain JavaScript. The game offers two interaction modes: local 2-player or player versus computer.",
+    proj4:
+      "Project developed to practice programming logic, event handling, and DOM manipulation using pure JavaScript. The game consists of controlling the snake to collect food, increasing the score and body length while avoiding collisions with the walls and itself.",
     address: "Address",
     "address-city": "Uberaba, MG / Brazil",
     phone: "Phone",
@@ -46,6 +48,8 @@ const translations = {
       "Clone do site do Rio Brazilian Steakhouse. Uma churrascaria brasileira localizada em Vancouver, BC.",
     proj3:
       "Projeto desenvolvido para praticar lógica de programação e manipulação da DOM com JavaScript puro. O jogo permite dois modos de interação: 2 jogadores locais ou jogador contra o computador",
+    proj4:
+      "Projeto desenvolvido para praticar lógica de programação, controle de eventos e manipulação da DOM com JavaScript puro. O jogo consiste em controlar a cobra para coletar alimentos, aumentando sua pontuação e o tamanho do corpo, enquanto evita colisões com as bordas e consigo mesma.",
     address: "Endereço",
     "address-city": "Uberaba, MG / Brasil",
     phone: "Telefone",
